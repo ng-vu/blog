@@ -1,0 +1,4 @@
+{
+    "root": "./blog",
+    "plugins": ["expandable-chapters"]
+}
