@@ -4,6 +4,6 @@ Latest articles:
 
 - [goderive - The quest of bringing magic to Go!](goderive.md)
 
-### About Me
+## About Me
 
-A Go developer.
+A developer!
