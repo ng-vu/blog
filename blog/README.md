@@ -6,4 +6,4 @@ Latest articles:
 
 ## About Me
 
-A developer!
+I'm a developer who mostly works with Go and JavaScript.

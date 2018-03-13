@@ -1,8 +1,10 @@
-# Postgres
+# PostgreSQL
+
+PostgreSQL is a poswerful relational DBMS that I use primarily for my projects. This page contains some useful things I learned while working with it.
 
 Website: [postgresql.org](https://www.postgresql.org/)
 
-## Auditing
+## Designing schema
 
 ### Tracking changes
 
@@ -10,7 +12,7 @@ Website: [postgresql.org](https://www.postgresql.org/)
 
 Store changes as JSONB and allow querying latest changes.
 
-```plsql
+```sql
 -- Add column "rid" (revision id) to table product
 ALTER TABLE product ADD COLUMN IF NOT EXISTS rid INT8;
 CREATE INDEX IF NOT EXISTS "IDX_product_rid" ON product(rid);
@@ -59,7 +61,7 @@ CREATE TRIGGER product_history AFTER INSERT OR UPDATE OR DELETE ON product
 
 #### Store only changed columns 
 
-```plsql
+```sql
 create extension hstore;
 
 CREATE OR REPLACE FUNCTION product_history() RETURNS TRIGGER
