@@ -9,4 +9,11 @@
 
 ### TIL
 
+* [applescript](til/applescript.md)
+* [go](til/go.md)
 * [postgresql](til/postgresql.md)
+* [snippets](til/snippets.md)
+
+### Others
+
+- [quotes](quotes.md)
