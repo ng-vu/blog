@@ -13,6 +13,7 @@
 * [go](til/go.md)
 * [postgresql](til/postgresql.md)
 * [snippets](til/snippets.md)
+* [don't be clever](til/dont-be-clever.md)
 
 ### Others
 
