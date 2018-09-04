@@ -1,0 +1,17 @@
+{
+    "root": ".",
+    "plugins": [
+        "-sharing",
+        "-highlight",
+        "expandable-chapters",
+        "my-navigator",
+        "sunlight-highlighter",
+        "todo"
+    ],
+    "pluginsConfig": {
+        "sunlight-highlighter": {
+            "theme": "gitbook",
+            "lineNumber": false
+        }
+    }
+}
